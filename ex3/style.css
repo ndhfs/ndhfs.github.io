@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    background: #f0f0f0;
+}
+
+h1 {
+    color: darkblue;
+    transition: color 0.3s;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+#hover-box {
+    padding: 1rem;
+    background: lightgray;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#datetime-paragraph {
+    color: #333;
+    cursor: pointer;
+}

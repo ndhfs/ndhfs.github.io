@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотека фильмов</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1>Библиотека фильмов</h1>
+    <form id="film-form">
+        <input type="text" id="title" placeholder="Название" required>
+        <input type="text" id="genre" placeholder="Жанр" required>
+        <input type="text" id="director" placeholder="Режиссёр" required>
+        <input type="number" id="year" placeholder="Год" required>
+        <button type="submit">Добавить фильм</button>
+    </form>
+    <table id="film-table">
+        <thead>
+        <tr>
+            <th>Название</th>
+            <th>Жанр</th>
+            <th>Режиссёр</th>
+            <th>Год</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Фильмы будут вставлены сюда -->
+        </tbody>
+    </table>
+</body>
+</html>

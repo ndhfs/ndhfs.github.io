@@ -1,0 +1,5 @@
+*.go
+.idea
+node_modules/
+ex2/uploads
+!ex2/uploads/.gitkeep

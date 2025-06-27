@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Спасибо</title>
+</head>
+<body>
+    <h2>Спасибо, {{.name}}!</h2>
+    <p>Email: {{.email}}</p>
+    <p>Сообщение: {{.message}}</p>
+    {{if .filename}}
+    <p>Загружен файл: <a href="{{.filepath}}" target="_blank">{{.filename}}</a></p>
+    {{else}}
+    <p>Файл не загружен.</p>
+    {{end}}
+    <a href="/">Вернуться к форме</a>
+</body>
+</html>

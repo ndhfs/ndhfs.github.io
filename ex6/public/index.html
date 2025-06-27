@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обработка JSON и XML</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<h1>Демонстрация передачи и обработки данных</h1>
+
+<button id="load-json">Загрузить JSON</button>
+<button id="load-xml">Загрузить XML</button>
+
+<form id="data-form">
+    <input type="text" id="name" placeholder="Имя" required>
+    <input type="number" id="age" placeholder="Возраст" required>
+    <button type="submit">Отправить (AJAX)</button>
+</form>
+
+<div id="json-output"></div>
+<div id="xml-output"></div>
+<div id="ws-output">WebSocket: <span></span></div>
+<div id="sse-output">SSE: <span></span></div>
+</body>
+</html>

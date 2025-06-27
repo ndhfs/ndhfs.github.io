@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Обратная связь</h1>
+  <form action="/submit" method="POST" enctype="multipart/form-data">
+    <label>Имя: <input type="text" name="name" required></label>
+    <label>Email: <input type="email" name="email" required></label>
+    <label>Сообщение:<br><textarea name="message" rows="4" required></textarea></label>
+    <label>Файл: <input type="file" name="file"></label>
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>
